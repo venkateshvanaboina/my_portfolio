@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 100vh;
+}
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 85px;
+    padding: 12px 18px;
+}
+
+.navstyle {
+    
+    font-size: 18px;
+    
+}
+
+.icon-bar {
+    background: darkorange;
+}
+
+li a {
+    color: black;
+}
+
+.big-text {
+    margin: 20px 0;
+    font-size: 42px;
+    color: darkorange;
+}
+
+a.btn {
+    margin: 30px 10px;
+    padding: 10px;    
+    width: 150px;
+    border-radius: 20px;
+}
+
+.btn-first {
+    background-color: darkorange;
+    color: white;
+}
+
+.btn-second {
+    background-color: transparent;
+    border: 1px solid darkorange;
+    color: black;
+    
+}

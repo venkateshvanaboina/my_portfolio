@@ -1,0 +1,17 @@
+.navbar {
+    width: 250px;
+    height: 100vh;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid #1873cde0;
+}
+
+.navbar-nav {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Pooppins",sans-serif;
+}

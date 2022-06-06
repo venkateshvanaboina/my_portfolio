@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+   
+}
+
+#symbol {
+    position: absolute;
+    height: 50px;
+    width: 50px;  
+    top: 90px;
+    left: 671px;  
+    border-radius: 34px;
+}
+
+#profile {   
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+    
+}
+p {
+    color: green;  
+
+}  
+
+p:hover {
+    display: inline;
+    color: red;
+    border: 3px solid pink;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
