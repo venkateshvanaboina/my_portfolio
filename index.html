@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WCS Flow</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="https://use.typekit.net/dli1qin.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0
+    }
+
+    .icon-bar {
+      position: absolute;
+      top: 20%;
+      left: 15px;
+
+    }
+
+    .icon-bar a:hover {
+      color: #5A9C52;
+    }
+
+    .icon-bar a {
+      display: block;
+      text-align: center;
+      padding: 8 px;
+      transition: all 0.3s ease;
+      color: #3574BB;
+      font-size: 36px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Button trigger modal -->
+
+  <div>
+    <div>
+      <img src="./images/wcslogo.png">
+      <img class="img" src="/images/rachel.jpg">
+      <div class="header">
+        <h1 class="name" style="font-family: noto sans;">Rachel</h1>
+      </div>
+    </div>
+  </div>
+  <div class="box-form">
+    <div class="container">
+      <div>
+        <h4 class="newop" style="font-family: roboto; font-size: 24px;">New Operator</h4>
+        <div>
+
+        </div>
+        <div class="contentbtn">
+          <button style="color: #5A9C52; padding: 9px 24px;margin-right: 6px;" class="btn btn-outline-success"
+            type="submit">Cancel</button>
+          <button style="color: #5A9C52; padding: 9px 24px;" type="button"
+            class="btn btn-outline-success save">Save</button>
+        </div>
+
+      </div>
+      <div>
+
+      </div>
+    </div>
+    <hr class="hr" style="height:3px; background-color: black;">
+    <div style="font-size: 12px; margin-right: 20px; margin-top: 20px; margin-left: 25px;margin-bottom: 25px;">
+      <input class="" type="checkbox" id="scales" name="scales" checked>
+      <label style="font-weight: 600;" for="scales">Applied On The Behalf Of Applicant.</label>
+      <a href='#' data-bs-toggle="modal" data-bs-target="#exampleModal"
+        style="color: #5A9C52; margin-left: 10px; text-decoration: none;">ViewDetails</a>
+      <div>
+        <form>
+          <div style="margin-top:22px" class="form-group">
+
+            <input type="text" class="boxes" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Operator id">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="First Name">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="Middle Name">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="Last Name">
+
+
+
+
+            <input type="number" class="boxes" id="exampleInputPassword1" placeholder="Contact phone">
+          </div>
+
+          <div style="margin-top:22px" class="form-group">
+
+            <input type="text" class="boxes" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Operator id">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="First Name">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="Middle Name">
+
+
+
+
+            <input style="width: 39%" type="text" class="boxes" id="exampleInputPassword1" placeholder="Last Name">
+
+
+
+
+
+          </div>
+
+          <div style="margin-top:22px" class="form-group">
+
+            <input style="width: 39%" type="text" class="boxes" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Operator id">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="First Name">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="Middle Name">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="Last Name">
+
+
+
+
+
+          </div>
+
+          <div style="margin-top:22px" class="form-group">
+
+            <input type="text" class="boxes" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Operator id">
+
+
+
+
+            <input type="text" class="boxes" id="exampleInputPassword1" placeholder="First Name">
+
+
+
+
+            <input type="text" style="width: 39%" class="boxes" id="exampleInputPassword1" placeholder="Middle Name">
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+        </form>
+      </div>
+
+
+      <div>
+        <div>
+          <div style="margin-bottom: 16px;">
+            <h4 style="margin-top: 40px">Registered Exams</h4>
+            <!-- <button style="color: #5A9C52" class="btn btn-outline-success btn1">REGISTER FOR EXAM</button> -->
+          </div>
+
+          <table class="table">
+            <thead class="tblcolor">
+              <tr>
+                <th scope="col">Exam Id</th>
+                <th scope="col">Enrolled on</th>
+                <th scope="col">Confirmed on</th>
+                <th scope="col">Exam type</th>
+                <th scope="col">Exam date</th>
+                <th scope="col">Location</th>
+                <th scope="col">Result on</th>
+                <th scope="col">Cancelled</th>
+                <th scope="col">Status</th>
+                <th scope="col">Payment</th>
+                <th scope="col">View</th>
+              </tr>
+            </thead>
+            <tbody class="tblsize">
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+              </tr>
+              <tr class="secondrow">
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+              </tr>
+
+            </tbody>
+          </table>
+
+
+
+
+        </div>
+      </div>
+      <div>
+        <div style="width: 100%;">
+          <div style="margin-bottom: 16px;">
+            <h4>Notes</h4>
+            <!-- <button style="color: #5A9C52" class="btn btn-outline-success btn2">ADD NOTE</button> -->
+          </div>
+
+          <table class="table">
+            <thead class="tblcolor">
+              <tr>
+                <th style="width: 56%;" scope="col">Note</th>
+                <th scope="col">Date</th>
+                <th scope="col">Created By</th>
+                <th scope="col">Actions</th>
+
+            </thead>
+            <tbody class="tblsize">
+              <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+              </tr>
+              <tr class="secondrow">
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td></td>
+
+
+
+              </tr>
+
+            </tbody>
+          </table>
+
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+  </div>
+  <div class="icon-bar">
+    <a class="anchor" href="#"><img src="/images/dashboard.jpg" width="30px" height="25px">
+      <div class="size">DashBoard</div>
+    </a>
+    <a class="anchor" href="#"><img src="/images/exam.png" width="22px" height="26px">
+      <div class="size">Exams</div>
+    </a>
+    <a class="anchor" href="#"><img src="/images/proctor.jpeg" width="20px" height="30px">
+      <div class="size">Proctor</div>
+    </a>
+    <a class="anchor" href="#"><img src="/images/operator.png" width="15px" height="30px">
+      <div class="size">Operator</div>
+    </a>
+    <a class="anchor" href="#"><img src="/images/course.jpeg" width="30px" height="28px">
+      <div class="size">Course</div>
+    </a>
+    <a class="anchor" href="#"><img src="/images/report.jpeg" width="25px" height="30px">
+      <div class="size">Reports</div>
+    </a>
+    <a class="anchor" href="#"><img src="/images/admin.jpeg" width="30px" height="30px">
+      <div class="size">Admin</div>
+    </a>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="border-bottom: none; padding-bottom: 0;">
+          <h5 style="border-bottom: 3px solid #3574BB; height: 50px; margin-top: -5px;" class="modal-title"
+            id="exampleModalLabel">Applied on behalf of the Applicant</h5>
+          <button type="button" style="background-color: #28a745; color: #fff; margin-right: 5px; margin-bottom: 8px;"
+            class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+        </div>
+        <hr class="hrmodal" style="height:3px; background-color: black;">
+        <div class="modal-body">
+          <form>
+            <div class="form-group">    
+              <div>
+                <input type="text" class="modalboxes" id="exampleInputPassword1" placeholder="First Name">
+              </div>   
+
+              <div>
+                <input type="text" class="modalboxes" id="exampleInputPassword1" placeholder="Middle Name">
+              </div> 
+
+              <div>
+                <input type="text" class="modalboxes" id="exampleInputPassword1" placeholder="First Name">
+              </div>   
+
+              <div>
+                <input type="text" class="modalboxes" id="exampleInputPassword1" placeholder="Middle Name">
+              </div> 
+
+
+
+            
+              
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button style="background-color: #5A9C52" type="button" class="btn btn-secondary"
+            data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</body>
+
+</html>

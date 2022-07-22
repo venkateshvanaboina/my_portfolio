@@ -1,0 +1,93 @@
+.header {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+
+.logo {
+    position: absolute;
+    top: 14px;
+}
+
+h2{
+    display: inline;
+}
+
+.image {
+    width: 44px;
+    height: 44px;
+    border-radius: 40px;
+}
+
+.headerimg {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.profile {
+    margin-right: 8px;    
+    position: absolute;
+    top: 11px;
+    right: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.main {
+    position: relative;
+}
+
+.btn1 {
+    position: absolute;
+    right: 124px;
+    top: 6px;
+    padding: 3px 12px;
+    border-radius: 5px;
+    border: 1px solid #5A9C52;
+    color: #5A9C52;
+    background-color: #fff;
+}
+
+.btn2 {
+    position: absolute;
+    right: 40px;
+    top: 6px;
+    padding: 3px 12px;
+    border-radius: 5px;
+    border: 1px solid #5A9C52;
+    color: #5A9C52;
+    background-color: #fff;
+}
+
+.content {
+    
+    display: flex;
+    border-top: 4px solid black;
+    margin-top: 30px;
+    padding-top: 18px;
+
+}
+
+.text {
+    margin-left: 16px;
+    color: #5A9C52;
+}
+
+.boxes {
+    
+    width: 14%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
